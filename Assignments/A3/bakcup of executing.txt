@@ -1,0 +1,461 @@
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.598
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.923
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.730
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.645
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.627
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.627
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.627
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.675
+INFO:tensorflow:Finished evaluation at 2020-06-13-19:52:28
+I0613 19:52:28.836977 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-19:52:28
+INFO:tensorflow:Saving dict for global step 3162: DetectionBoxes_Precision/mAP = 0.5979098, DetectionBoxes_Precision/mAP (large) = 0.6449395, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.9229923, DetectionBoxes_Precision/mAP@.75IOU = 0.729648, DetectionBoxes_Recall/AR@1 = 0.62666667, DetectionBoxes_Recall/AR@10 = 0.62666667, DetectionBoxes_Recall/AR@100 = 0.62666667, DetectionBoxes_Recall/AR@100 (large) = 0.675, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.4689054, Loss/localization_loss = 0.55805665, Loss/regularization_loss = 0.25433257, Loss/total_loss = 5.281295, global_step = 3162, learning_rate = 0.004, loss = 5.281295
+I0613 19:52:28.837323 140021982594880 estimator.py:2049] Saving dict for global step 3162: DetectionBoxes_Precision/mAP = 0.5979098, DetectionBoxes_Precision/mAP (large) = 0.6449395, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.9229923, DetectionBoxes_Precision/mAP@.75IOU = 0.729648, DetectionBoxes_Recall/AR@1 = 0.62666667, DetectionBoxes_Recall/AR@10 = 0.62666667, DetectionBoxes_Recall/AR@100 = 0.62666667, DetectionBoxes_Recall/AR@100 (large) = 0.675, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.4689054, Loss/localization_loss = 0.55805665, Loss/regularization_loss = 0.25433257, Loss/total_loss = 5.281295, global_step = 3162, learning_rate = 0.004, loss = 5.281295
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3162: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3162
+I0613 19:52:28.843007 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 3162: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3162
+INFO:tensorflow:global_step/sec: 0.234604
+I0613 19:55:12.603734 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.234604
+INFO:tensorflow:loss = 2.0881927, step = 3201 (426.250 sec)
+I0613 19:55:12.605698 140021982594880 basic_session_run_hooks.py:260] loss = 2.0881927, step = 3201 (426.250 sec)
+INFO:tensorflow:global_step/sec: 0.237429
+I0613 20:02:13.781837 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.237429
+INFO:tensorflow:loss = 2.0389612, step = 3301 (421.178 sec)
+I0613 20:02:13.783584 140021982594880 basic_session_run_hooks.py:260] loss = 2.0389612, step = 3301 (421.178 sec)
+INFO:tensorflow:Saving checkpoints for 3302 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+I0613 20:02:17.825664 140021982594880 basic_session_run_hooks.py:606] Saving checkpoints for 3302 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+I0613 20:02:20.065244 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:02:22.925726 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:02:22.974989 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:02:23.017451 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:02:23.061994 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:02:23.105603 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:02:23.148107 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:Done calling model_fn.
+I0613 20:02:24.825132 140021982594880 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-06-13T20:02:24Z
+I0613 20:02:24.850905 140021982594880 evaluation.py:255] Starting evaluation at 2020-06-13T20:02:24Z
+INFO:tensorflow:Graph was finalized.
+I0613 20:02:25.365340 140021982594880 monitored_session.py:240] Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3302
+I0613 20:02:25.367404 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3302
+INFO:tensorflow:Running local_init_op.
+I0613 20:02:26.578786 140021982594880 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0613 20:02:26.728754 140021982594880 session_manager.py:502] Done running local_init_op.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0613 20:02:31.036997 140019826161408 coco_tools.py:109] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.00s)
+I0613 20:02:31.039270 140019826161408 coco_tools.py:131] DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.633
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.899
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.817
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.679
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.653
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.667
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.667
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.715
+INFO:tensorflow:Finished evaluation at 2020-06-13-20:02:31
+I0613 20:02:31.499384 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-20:02:31
+INFO:tensorflow:Saving dict for global step 3302: DetectionBoxes_Precision/mAP = 0.6328697, DetectionBoxes_Precision/mAP (large) = 0.6787443, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.8987899, DetectionBoxes_Precision/mAP@.75IOU = 0.81706744, DetectionBoxes_Recall/AR@1 = 0.6533333, DetectionBoxes_Recall/AR@10 = 0.6666667, DetectionBoxes_Recall/AR@100 = 0.6666667, DetectionBoxes_Recall/AR@100 (large) = 0.715, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.571108, Loss/localization_loss = 0.56887066, Loss/regularization_loss = 0.25453684, Loss/total_loss = 5.3945155, global_step = 3302, learning_rate = 0.004, loss = 5.3945155
+I0613 20:02:31.500021 140021982594880 estimator.py:2049] Saving dict for global step 3302: DetectionBoxes_Precision/mAP = 0.6328697, DetectionBoxes_Precision/mAP (large) = 0.6787443, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.8987899, DetectionBoxes_Precision/mAP@.75IOU = 0.81706744, DetectionBoxes_Recall/AR@1 = 0.6533333, DetectionBoxes_Recall/AR@10 = 0.6666667, DetectionBoxes_Recall/AR@100 = 0.6666667, DetectionBoxes_Recall/AR@100 (large) = 0.715, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.571108, Loss/localization_loss = 0.56887066, Loss/regularization_loss = 0.25453684, Loss/total_loss = 5.3945155, global_step = 3302, learning_rate = 0.004, loss = 5.3945155
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3302: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3302
+I0613 20:02:31.505752 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 3302: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3302
+INFO:tensorflow:global_step/sec: 0.240818
+I0613 20:09:09.033965 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.240818
+INFO:tensorflow:loss = 1.7457712, step = 3401 (415.252 sec)
+I0613 20:09:09.036090 140021982594880 basic_session_run_hooks.py:260] loss = 1.7457712, step = 3401 (415.252 sec)
+INFO:tensorflow:Saving checkpoints for 3449 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+I0613 20:12:18.000669 140021982594880 basic_session_run_hooks.py:606] Saving checkpoints for 3449 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+I0613 20:12:20.086349 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:12:23.144827 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:12:23.186601 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:12:23.228534 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:12:23.271819 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:12:23.314141 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:12:23.357841 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:Done calling model_fn.
+I0613 20:12:24.908474 140021982594880 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-06-13T20:12:24Z
+I0613 20:12:24.931749 140021982594880 evaluation.py:255] Starting evaluation at 2020-06-13T20:12:24Z
+INFO:tensorflow:Graph was finalized.
+I0613 20:12:25.420795 140021982594880 monitored_session.py:240] Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3449
+I0613 20:12:25.422836 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3449
+INFO:tensorflow:Running local_init_op.
+I0613 20:12:26.628153 140021982594880 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0613 20:12:26.780623 140021982594880 session_manager.py:502] Done running local_init_op.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0613 20:12:30.874965 140019826161408 coco_tools.py:109] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.00s)
+I0613 20:12:30.876970 140019826161408 coco_tools.py:131] DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.640
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.934
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.855
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.683
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.667
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.667
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.667
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.712
+INFO:tensorflow:Finished evaluation at 2020-06-13-20:12:31
+I0613 20:12:31.342636 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-20:12:31
+INFO:tensorflow:Saving dict for global step 3449: DetectionBoxes_Precision/mAP = 0.64004403, DetectionBoxes_Precision/mAP (large) = 0.6826733, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.9339934, DetectionBoxes_Precision/mAP@.75IOU = 0.8547855, DetectionBoxes_Recall/AR@1 = 0.6666667, DetectionBoxes_Recall/AR@10 = 0.6666667, DetectionBoxes_Recall/AR@100 = 0.6666667, DetectionBoxes_Recall/AR@100 (large) = 0.71166664, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.142031, Loss/localization_loss = 0.6207947, Loss/regularization_loss = 0.2547255, Loss/total_loss = 5.017552, global_step = 3449, learning_rate = 0.004, loss = 5.017552
+I0613 20:12:31.342898 140021982594880 estimator.py:2049] Saving dict for global step 3449: DetectionBoxes_Precision/mAP = 0.64004403, DetectionBoxes_Precision/mAP (large) = 0.6826733, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.9339934, DetectionBoxes_Precision/mAP@.75IOU = 0.8547855, DetectionBoxes_Recall/AR@1 = 0.6666667, DetectionBoxes_Recall/AR@10 = 0.6666667, DetectionBoxes_Recall/AR@100 = 0.6666667, DetectionBoxes_Recall/AR@100 (large) = 0.71166664, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.142031, Loss/localization_loss = 0.6207947, Loss/regularization_loss = 0.2547255, Loss/total_loss = 5.017552, global_step = 3449, learning_rate = 0.004, loss = 5.017552
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3449: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3449
+I0613 20:12:31.347285 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 3449: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3449
+INFO:tensorflow:global_step/sec: 0.245431
+I0613 20:15:56.479798 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.245431
+INFO:tensorflow:loss = 1.5990721, step = 3501 (407.446 sec)
+I0613 20:15:56.481556 140021982594880 basic_session_run_hooks.py:260] loss = 1.5990721, step = 3501 (407.446 sec)
+INFO:tensorflow:Saving checkpoints for 3599 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+I0613 20:22:21.213179 140021982594880 basic_session_run_hooks.py:606] Saving checkpoints for 3599 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+I0613 20:22:23.347323 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:22:26.045929 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:22:26.087378 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:22:26.130274 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:22:26.173511 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:22:26.216045 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:22:26.257885 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:Done calling model_fn.
+I0613 20:22:27.908338 140021982594880 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-06-13T20:22:27Z
+I0613 20:22:27.930838 140021982594880 evaluation.py:255] Starting evaluation at 2020-06-13T20:22:27Z
+INFO:tensorflow:Graph was finalized.
+I0613 20:22:28.425363 140021982594880 monitored_session.py:240] Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3599
+I0613 20:22:28.427632 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3599
+INFO:tensorflow:Running local_init_op.
+I0613 20:22:29.591758 140021982594880 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0613 20:22:29.735733 140021982594880 session_manager.py:502] Done running local_init_op.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0613 20:22:34.074076 140019960379136 coco_tools.py:109] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.00s)
+I0613 20:22:34.077205 140019960379136 coco_tools.py:131] DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.677
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.940
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.267
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.719
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.687
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.740
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.740
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.800
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.733
+INFO:tensorflow:Finished evaluation at 2020-06-13-20:22:34
+I0613 20:22:34.529143 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-20:22:34
+INFO:tensorflow:Saving dict for global step 3599: DetectionBoxes_Precision/mAP = 0.67698455, DetectionBoxes_Precision/mAP (large) = 0.71925193, DetectionBoxes_Precision/mAP (medium) = 0.26666668, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.93978345, DetectionBoxes_Precision/mAP@.75IOU = 0.80545425, DetectionBoxes_Recall/AR@1 = 0.68666667, DetectionBoxes_Recall/AR@10 = 0.74, DetectionBoxes_Recall/AR@100 = 0.74, DetectionBoxes_Recall/AR@100 (large) = 0.73333335, DetectionBoxes_Recall/AR@100 (medium) = 0.8, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 5.040271, Loss/localization_loss = 0.5167874, Loss/regularization_loss = 0.25495246, Loss/total_loss = 5.812011, global_step = 3599, learning_rate = 0.004, loss = 5.812011
+I0613 20:22:34.529454 140021982594880 estimator.py:2049] Saving dict for global step 3599: DetectionBoxes_Precision/mAP = 0.67698455, DetectionBoxes_Precision/mAP (large) = 0.71925193, DetectionBoxes_Precision/mAP (medium) = 0.26666668, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.93978345, DetectionBoxes_Precision/mAP@.75IOU = 0.80545425, DetectionBoxes_Recall/AR@1 = 0.68666667, DetectionBoxes_Recall/AR@10 = 0.74, DetectionBoxes_Recall/AR@100 = 0.74, DetectionBoxes_Recall/AR@100 (large) = 0.73333335, DetectionBoxes_Recall/AR@100 (medium) = 0.8, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 5.040271, Loss/localization_loss = 0.5167874, Loss/regularization_loss = 0.25495246, Loss/total_loss = 5.812011, global_step = 3599, learning_rate = 0.004, loss = 5.812011
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3599: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3599
+I0613 20:22:34.534025 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 3599: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3599
+INFO:tensorflow:global_step/sec: 0.24641
+I0613 20:22:42.308211 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.24641
+INFO:tensorflow:loss = 1.7330992, step = 3601 (405.828 sec)
+I0613 20:22:42.309643 140021982594880 basic_session_run_hooks.py:260] loss = 1.7330992, step = 3601 (405.828 sec)
+INFO:tensorflow:global_step/sec: 0.243902
+I0613 20:29:32.309077 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.243902
+INFO:tensorflow:loss = 1.871394, step = 3701 (410.002 sec)
+I0613 20:29:32.311737 140021982594880 basic_session_run_hooks.py:260] loss = 1.871394, step = 3701 (410.002 sec)
+INFO:tensorflow:Saving checkpoints for 3743 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+I0613 20:32:23.162608 140021982594880 basic_session_run_hooks.py:606] Saving checkpoints for 3743 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+I0613 20:32:26.161194 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:32:28.979206 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:32:29.026098 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:32:29.069118 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:32:29.113905 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:32:29.155269 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:32:29.197504 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:Done calling model_fn.
+I0613 20:32:31.225870 140021982594880 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-06-13T20:32:31Z
+I0613 20:32:31.249030 140021982594880 evaluation.py:255] Starting evaluation at 2020-06-13T20:32:31Z
+INFO:tensorflow:Graph was finalized.
+I0613 20:32:31.868535 140021982594880 monitored_session.py:240] Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3743
+I0613 20:32:31.872299 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3743
+INFO:tensorflow:Running local_init_op.
+I0613 20:32:33.394687 140021982594880 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0613 20:32:33.542207 140021982594880 session_manager.py:502] Done running local_init_op.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0613 20:32:38.319005 140020315563776 coco_tools.py:109] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.00s)
+I0613 20:32:38.321285 140020315563776 coco_tools.py:131] DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.539
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.900
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.585
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.062
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.593
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.573
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.573
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.627
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.800
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.622
+INFO:tensorflow:Finished evaluation at 2020-06-13-20:32:38
+I0613 20:32:38.811231 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-20:32:38
+INFO:tensorflow:Saving dict for global step 3743: DetectionBoxes_Precision/mAP = 0.53908694, DetectionBoxes_Precision/mAP (large) = 0.59308505, DetectionBoxes_Precision/mAP (medium) = 0.06153846, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.90044004, DetectionBoxes_Precision/mAP@.75IOU = 0.58470845, DetectionBoxes_Recall/AR@1 = 0.5733333, DetectionBoxes_Recall/AR@10 = 0.5733333, DetectionBoxes_Recall/AR@100 = 0.62666667, DetectionBoxes_Recall/AR@100 (large) = 0.62166667, DetectionBoxes_Recall/AR@100 (medium) = 0.8, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.723032, Loss/localization_loss = 0.5177844, Loss/regularization_loss = 0.25512597, Loss/total_loss = 5.4959426, global_step = 3743, learning_rate = 0.004, loss = 5.4959426
+I0613 20:32:38.811538 140021982594880 estimator.py:2049] Saving dict for global step 3743: DetectionBoxes_Precision/mAP = 0.53908694, DetectionBoxes_Precision/mAP (large) = 0.59308505, DetectionBoxes_Precision/mAP (medium) = 0.06153846, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.90044004, DetectionBoxes_Precision/mAP@.75IOU = 0.58470845, DetectionBoxes_Recall/AR@1 = 0.5733333, DetectionBoxes_Recall/AR@10 = 0.5733333, DetectionBoxes_Recall/AR@100 = 0.62666667, DetectionBoxes_Recall/AR@100 (large) = 0.62166667, DetectionBoxes_Recall/AR@100 (medium) = 0.8, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.723032, Loss/localization_loss = 0.5177844, Loss/regularization_loss = 0.25512597, Loss/total_loss = 5.4959426, global_step = 3743, learning_rate = 0.004, loss = 5.4959426
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3743: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3743
+I0613 20:32:38.815472 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 3743: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3743
+INFO:tensorflow:global_step/sec: 0.23251
+I0613 20:36:42.398979 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.23251
+INFO:tensorflow:loss = 0.9360485, step = 3801 (430.089 sec)
+I0613 20:36:42.400735 140021982594880 basic_session_run_hooks.py:260] loss = 0.9360485, step = 3801 (430.089 sec)
+INFO:tensorflow:Saving checkpoints for 3884 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+I0613 20:42:27.139160 140021982594880 basic_session_run_hooks.py:606] Saving checkpoints for 3884 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+I0613 20:42:29.252359 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:42:31.997601 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:42:32.041168 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:42:32.084404 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:42:32.132939 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:42:32.176508 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:42:32.220906 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:Done calling model_fn.
+I0613 20:42:34.175132 140021982594880 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-06-13T20:42:34Z
+I0613 20:42:34.200710 140021982594880 evaluation.py:255] Starting evaluation at 2020-06-13T20:42:34Z
+INFO:tensorflow:Graph was finalized.
+I0613 20:42:34.693830 140021982594880 monitored_session.py:240] Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3884
+I0613 20:42:34.696316 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3884
+INFO:tensorflow:Running local_init_op.
+I0613 20:42:35.933537 140021982594880 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0613 20:42:36.093822 140021982594880 session_manager.py:502] Done running local_init_op.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0613 20:42:40.194432 140019960379136 coco_tools.py:109] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.00s)
+I0613 20:42:40.197446 140019960379136 coco_tools.py:131] DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.11s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.612
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.921
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.828
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.233
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.658
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.647
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.647
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.693
+INFO:tensorflow:Finished evaluation at 2020-06-13-20:42:40
+I0613 20:42:40.697761 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-20:42:40
+INFO:tensorflow:Saving dict for global step 3884: DetectionBoxes_Precision/mAP = 0.61177903, DetectionBoxes_Precision/mAP (large) = 0.6578383, DetectionBoxes_Precision/mAP (medium) = 0.23333333, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.9206349, DetectionBoxes_Precision/mAP@.75IOU = 0.8282257, DetectionBoxes_Recall/AR@1 = 0.64666665, DetectionBoxes_Recall/AR@10 = 0.64666665, DetectionBoxes_Recall/AR@100 = 0.6933333, DetectionBoxes_Recall/AR@100 (large) = 0.6933333, DetectionBoxes_Recall/AR@100 (medium) = 0.7, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.139991, Loss/localization_loss = 0.51615167, Loss/regularization_loss = 0.255306, Loss/total_loss = 4.9114485, global_step = 3884, learning_rate = 0.004, loss = 4.9114485
+I0613 20:42:40.698213 140021982594880 estimator.py:2049] Saving dict for global step 3884: DetectionBoxes_Precision/mAP = 0.61177903, DetectionBoxes_Precision/mAP (large) = 0.6578383, DetectionBoxes_Precision/mAP (medium) = 0.23333333, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.9206349, DetectionBoxes_Precision/mAP@.75IOU = 0.8282257, DetectionBoxes_Recall/AR@1 = 0.64666665, DetectionBoxes_Recall/AR@10 = 0.64666665, DetectionBoxes_Recall/AR@100 = 0.6933333, DetectionBoxes_Recall/AR@100 (large) = 0.6933333, DetectionBoxes_Recall/AR@100 (medium) = 0.7, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.139991, Loss/localization_loss = 0.51615167, Loss/regularization_loss = 0.255306, Loss/total_loss = 4.9114485, global_step = 3884, learning_rate = 0.004, loss = 4.9114485
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3884: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3884
+I0613 20:42:40.704923 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 3884: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-3884
+INFO:tensorflow:global_step/sec: 0.233952
+I0613 20:43:49.836623 140021982594880 basic_session_run_hooks.py:692] global_step/sec: 0.233952
+INFO:tensorflow:loss = 1.4039559, step = 3901 (427.437 sec)
+I0613 20:43:49.837933 140021982594880 basic_session_run_hooks.py:260] loss = 1.4039559, step = 3901 (427.437 sec)
+INFO:tensorflow:Saving checkpoints for 4000 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+I0613 20:51:00.374335 140021982594880 basic_session_run_hooks.py:606] Saving checkpoints for 4000 into /home/ubuntu/content/models/research/facescrub_training/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+I0613 20:51:01.935007 140021982594880 training.py:527] Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:Calling model_fn.
+I0613 20:51:02.637486 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:05.476551 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:05.520972 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:05.566908 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:05.613247 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:05.662750 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:05.702952 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:Done calling model_fn.
+I0613 20:51:07.309028 140021982594880 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-06-13T20:51:07Z
+I0613 20:51:07.336543 140021982594880 evaluation.py:255] Starting evaluation at 2020-06-13T20:51:07Z
+INFO:tensorflow:Graph was finalized.
+I0613 20:51:08.119992 140021982594880 monitored_session.py:240] Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-4000
+I0613 20:51:08.122768 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-4000
+INFO:tensorflow:Running local_init_op.
+I0613 20:51:09.341867 140021982594880 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0613 20:51:09.492106 140021982594880 session_manager.py:502] Done running local_init_op.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0613 20:51:13.831601 140020315563776 coco_tools.py:109] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.00s)
+I0613 20:51:13.834693 140020315563776 coco_tools.py:131] DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.625
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.908
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.644
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.668
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.660
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.660
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.660
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.708
+INFO:tensorflow:Finished evaluation at 2020-06-13-20:51:14
+I0613 20:51:14.305406 140021982594880 evaluation.py:275] Finished evaluation at 2020-06-13-20:51:14
+INFO:tensorflow:Saving dict for global step 4000: DetectionBoxes_Precision/mAP = 0.62475246, DetectionBoxes_Precision/mAP (large) = 0.6679868, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.90759075, DetectionBoxes_Precision/mAP@.75IOU = 0.64356434, DetectionBoxes_Recall/AR@1 = 0.66, DetectionBoxes_Recall/AR@10 = 0.66, DetectionBoxes_Recall/AR@100 = 0.66, DetectionBoxes_Recall/AR@100 (large) = 0.7083333, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.486755, Loss/localization_loss = 0.51223505, Loss/regularization_loss = 0.2554435, Loss/total_loss = 5.254433, global_step = 4000, learning_rate = 0.004, loss = 5.254433
+I0613 20:51:14.305769 140021982594880 estimator.py:2049] Saving dict for global step 4000: DetectionBoxes_Precision/mAP = 0.62475246, DetectionBoxes_Precision/mAP (large) = 0.6679868, DetectionBoxes_Precision/mAP (medium) = 0.0, DetectionBoxes_Precision/mAP (small) = -1.0, DetectionBoxes_Precision/mAP@.50IOU = 0.90759075, DetectionBoxes_Precision/mAP@.75IOU = 0.64356434, DetectionBoxes_Recall/AR@1 = 0.66, DetectionBoxes_Recall/AR@10 = 0.66, DetectionBoxes_Recall/AR@100 = 0.66, DetectionBoxes_Recall/AR@100 (large) = 0.7083333, DetectionBoxes_Recall/AR@100 (medium) = 0.0, DetectionBoxes_Recall/AR@100 (small) = -1.0, Loss/classification_loss = 4.486755, Loss/localization_loss = 0.51223505, Loss/regularization_loss = 0.2554435, Loss/total_loss = 5.254433, global_step = 4000, learning_rate = 0.004, loss = 5.254433
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 4000: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-4000
+I0613 20:51:14.311655 140021982594880 estimator.py:2109] Saving 'checkpoint_path' summary for global step 4000: /home/ubuntu/content/models/research/facescrub_training/model.ckpt-4000
+INFO:tensorflow:Performing the final export in the end of training.
+I0613 20:51:14.313031 140021982594880 exporter.py:410] Performing the final export in the end of training.
+WARNING:tensorflow:From /home/ubuntu/content/models/research/object_detection/inputs.py:606: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0613 20:51:14.320439 140021982594880 module_wrapper.py:139] From /home/ubuntu/content/models/research/object_detection/inputs.py:606: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+INFO:tensorflow:Calling model_fn.
+I0613 20:51:14.526617 140021982594880 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:17.319359 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:17.366439 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:17.409786 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:17.453119 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:17.500562 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0613 20:51:17.544026 140021982594880 convolutional_box_predictor.py:148] depth of additional conv before box predictor: 0
+WARNING:tensorflow:From /home/ubuntu/content/models/research/object_detection/model_lib.py:387: The name tf.saved_model.signature_constants.PREDICT_METHOD_NAME is deprecated. Please use tf.saved_model.PREDICT_METHOD_NAME instead.
+
+W0613 20:51:18.029142 140021982594880 module_wrapper.py:139] From /home/ubuntu/content/models/research/object_detection/model_lib.py:387: The name tf.saved_model.signature_constants.PREDICT_METHOD_NAME is deprecated. Please use tf.saved_model.PREDICT_METHOD_NAME instead.
+
+INFO:tensorflow:Done calling model_fn.
+I0613 20:51:18.333445 140021982594880 estimator.py:1150] Done calling model_fn.
+WARNING:tensorflow:From /home/ubuntu/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/saved_model/signature_def_utils_impl.py:201: build_tensor_info (from tensorflow.python.saved_model.utils_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This function will only be available through the v1 compatibility library as tf.compat.v1.saved_model.utils.build_tensor_info or tf.compat.v1.saved_model.build_tensor_info.
+W0613 20:51:18.333734 140021982594880 deprecation.py:323] From /home/ubuntu/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/saved_model/signature_def_utils_impl.py:201: build_tensor_info (from tensorflow.python.saved_model.utils_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This function will only be available through the v1 compatibility library as tf.compat.v1.saved_model.utils.build_tensor_info or tf.compat.v1.saved_model.build_tensor_info.
+INFO:tensorflow:Signatures INCLUDED in export for Classify: None
+I0613 20:51:18.334797 140021982594880 export_utils.py:170] Signatures INCLUDED in export for Classify: None
+INFO:tensorflow:Signatures INCLUDED in export for Regress: None
+I0613 20:51:18.335062 140021982594880 export_utils.py:170] Signatures INCLUDED in export for Regress: None
+INFO:tensorflow:Signatures INCLUDED in export for Predict: ['tensorflow/serving/predict', 'serving_default']
+I0613 20:51:18.335753 140021982594880 export_utils.py:170] Signatures INCLUDED in export for Predict: ['tensorflow/serving/predict', 'serving_default']
+INFO:tensorflow:Signatures INCLUDED in export for Train: None
+I0613 20:51:18.336045 140021982594880 export_utils.py:170] Signatures INCLUDED in export for Train: None
+INFO:tensorflow:Signatures INCLUDED in export for Eval: None
+I0613 20:51:18.336314 140021982594880 export_utils.py:170] Signatures INCLUDED in export for Eval: None
+INFO:tensorflow:Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-4000
+I0613 20:51:18.342730 140021982594880 saver.py:1284] Restoring parameters from /home/ubuntu/content/models/research/facescrub_training/model.ckpt-4000
+INFO:tensorflow:Assets added to graph.
+I0613 20:51:18.909417 140021982594880 builder_impl.py:665] Assets added to graph.
+INFO:tensorflow:No assets to write.
+I0613 20:51:18.909619 140021982594880 builder_impl.py:460] No assets to write.
+INFO:tensorflow:SavedModel written to: /home/ubuntu/content/models/research/facescrub_training/export/Servo/temp-b'1592045474'/saved_model.pb
+I0613 20:51:20.046774 140021982594880 builder_impl.py:425] SavedModel written to: /home/ubuntu/content/models/research/facescrub_training/export/Servo/temp-b'1592045474'/saved_model.pb
+INFO:tensorflow:Loss for final step: 1.564553.
+I0613 20:51:20.358911 140021982594880 estimator.py:371] Loss for final step: 1.564553.
+(base) ubuntu@ubuntu-virtual-machine:~$ 
